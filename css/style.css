@@ -595,6 +595,38 @@ Project Single
     max-height: 740px;
     overflow: hidden;
 }
+   .star:before {
+       content: '\2605'; /* Unicode for a solid star */
+       color: gold; /* Color of the star */
+       margin-right: 5px; /* Space between the star and text */
+   }
+.arrow:before {
+    content: '\2192'; /* Unicode for a right arrow */
+    color: white; /* Color of the arrow */
+    margin-right: 5px; /* Space between the arrow and text */
+}
+.item {
+    display: inline-block;
+    /*margin: 5px;*/
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 80px;
+}
+.item:hover {
+    background-color: #7C7C7C;
+    color: #0D0D0D;
+}
+.item_text {
+    text-align: center;
+    /*margin-bottom: px;*/
+    font-weight: bold;
+}
+.item_text:hover{
+   color: black;
+}
 
 .project-details {
     padding-top: 30px;
